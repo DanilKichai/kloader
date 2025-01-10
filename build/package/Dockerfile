@@ -55,6 +55,8 @@ FROM --platform=linux/amd64 archlinux:base as wrapper
       core/systemd \
       core/udev \
       core/util-linux \
+      extra/arch-install-scripts \
+      extra/debootstrap \
       extra/kexec-tools \
       extra/polkit \
       extra/qrencode \
